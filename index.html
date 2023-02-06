@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Build a Weather</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="search">
+        <!-- <p class="info-txt"></p> -->
+        <input type="text" class="input" placeholder="Enter City Name"> <button class="btn">search</button>
+    </div>
+
+    <div class="container">
+        <div class="app-title">
+            <p>Weather</p>
+        </div>
+        <!-- <div class="notification"></div> -->
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img src="icon/global-search.png" id="icon">
+            </div>
+            <div class="temperature-value">
+                <p>-°<span>C</span></p>
+            </div>
+            <div class="temperature-description">
+                <p>-</p>
+            </div>
+            <div class="location">
+                <p>-</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="box-container">
+        <div class="box-wrap">
+            <div class="box-zone" id="uv">
+                <h3 class="box-header">UV</h3>
+                <div class="weather-information__value">-</div>
+            </div>
+            <div class="box-zone" id="humidity">
+                <h3 class="box-header">Humidity</h3>
+                <div class="weather-information__value">-</div>
+            </div>
+            <div class="box-zone" id="wind_degree">
+                <h3 class="box-header">Wind</h3>
+                <div class="weather-information__value">-</div>
+            </div>
+            <!-- <div class="box-zone" id="pressure_in">
+                <h3 class="box-header">pressure</h3><div class="weather-information__value"></div>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="script_onclick.js"></script>
+</body>
+
+</html>

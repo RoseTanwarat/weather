@@ -1,0 +1,153 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Playfair+Display&display=swap'); */
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right,#667db6,#0082c8,#0082c8,#667db6);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 300px;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    /* margin-top: 100px; */
+    border-radius: 10px;
+    border-bottom: 50px ;
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title > p {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.6em;
+    color: #293251;
+}
+ /* ไม่ได้ใช้ */
+/* .notification{
+   display: none;
+}
+
+.notification > p{
+    margin: 0;
+    padding: 10px 0;
+} */
+
+.weather-container{
+    width: 300px;
+    height: 280px;
+    background-color: #f4f9ff;
+    border-radius: 10px;
+}
+.weather-icon {
+    width: 300px;
+    height: 150px;
+}
+
+.weather-icon > img{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.temperature-value{
+    width: 300px;
+    height: 60px;
+}
+
+.temperature-value > p {
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+}
+
+/* .temperature-value > p > span {
+    color: #293251;
+    font-size: 0.5em;
+} */
+
+.temperature-description{
+    text-align: center;
+    padding: 10px;
+}
+.temperature-description > p {
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align:center;
+    font-size: 1.2em;
+}
+
+.location > p {
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* -------------------3 กล่อง------------------------- */
+.box-wrap{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* margin-top: 50px; */
+    /* margin: 50px; */
+}
+
+.box-zone{
+    padding: 30px;
+    margin: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    /* padding-top: 0; */
+
+}
+
+.box-header{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* -------------------ปุ่มค้นหา------------------------- */
+
+.btn{
+    padding: 4px;
+    margin-left: 2px;
+    border-radius: 4px;
+    font-family: 'Barlow', sans-serif;
+    transition: 0.5s;
+    background-color: rgb(255, 217, 0);
+    border: gray;
+}
+
+.btn:hover{
+    background-color: rgb(233, 225, 225);
+}
+
+.input{
+    height: 26px;
+    padding: 15px;
+    border-radius: 4px;
+} 
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
